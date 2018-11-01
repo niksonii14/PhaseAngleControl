@@ -2,12 +2,15 @@
 #define triacPin 3
 int ledPin=13;
 int buzzPin=5;
-int trigerTime;
+int trigerTime = 300;
 int pulseDelay;
 
 void setup(){
   
   pinMode(triacPin, OUTPUT);
+  
+  digitalWrite(triacPin, LOW);
+  
   attachInterrupt(0, angle, RISING);
   pinMode(5, OUTPUT);
   pinMode(ledPin, OUTPUT);
