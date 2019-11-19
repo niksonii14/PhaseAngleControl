@@ -3358,6 +3358,135 @@ part number 2062-2P from STA</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="PatternAgents-Beautify">
+<description>&lt;B&gt;PatternAgents Beautify Library&lt;/B&gt;
+&lt;P&gt;
+Schematic Symbols for Design Beautification.
+&lt;BR&gt;
+Schematic and PCB layout libraries for design patterns by PatternAgents.
+&lt;P&gt;
+&lt;B&gt;Note Bene:&lt;/B&gt; This library uses no special characters in the Power Supply names.
+&lt;BR&gt;
+For example: Where most Eagle Libraries would use "+5V" for the net name for the main 5V rail,
+&lt;BR&gt;
+PatternAgents uses "5V0" to avoid any special characters that break other CAD tools.
+&lt;BR&gt;
+This is not a problem if you live only within Eagle, but once you want to bring your netlist into
+&lt;BR&gt;
+other CAD or Simulation tools, your netlist can become difficult to port to other tools.
+&lt;BR&gt;
+Trust us, we have years of experience at this... 
+&lt;P&gt;
+For the CADSoft Eagle CAD program : http://www.cadsoftusa.com/download-eagle/
+&lt;P&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/3.0/ 
+(Creative Commons 3.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FRAME_ASIZE_LANDSCAPE">
+<description>&lt;B&gt;Schematic  Frame : A Size , 8 1/2 x 11 inch, Landscape&lt;/B&gt;
+&lt;P&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/3.0/ 
+(Creative Commons 3.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<frame x1="0" y1="0" x2="279.4" y2="215.9" columns="6" rows="5" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="TITLE_SECTION">
+<description>&lt;B&gt;Schematic Title/Documentation Field&lt;/B&gt;
+&lt;P&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/3.0/ 
+(Creative Commons 3.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94" font="vector">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FRAME_ASIZE_LANDSCAPE" prefix="FRAME" uservalue="yes">
+<description>&lt;B&gt;Schematic  Frame : A Size , 8 1/2 x 11 inch, Landscape&lt;/B&gt;
+&lt;P&gt;
+Source LBR : http://www.patternagents.com
+&lt;BR&gt;
+Github : https://github.com/PatternAgents
+&lt;BR&gt;
+License : http://creativecommons.org/licenses/by-sa/3.0/ 
+(Creative Commons 3.0)
+&lt;P&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, 
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, 
+OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_ASIZE_LANDSCAPE" x="0" y="0" addlevel="always"/>
+<gate name="G$2" symbol="TITLE_SECTION" x="172.72" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3455,149 +3584,155 @@ part number 2062-2P from STA</description>
 <part name="V1" library="OIZOM" deviceset="+5V" device=""/>
 <part name="AC_IN" library="SparkFun-Connectors" deviceset="CONN_02" device="5MM"/>
 <part name="AC_OUT" library="SparkFun-Connectors" deviceset="CONN_02" device="5MM"/>
+<part name="FRAME1" library="PatternAgents-Beautify" deviceset="FRAME_ASIZE_LANDSCAPE" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="134.62" y1="134.62" x2="269.24" y2="134.62" width="1.016" layer="94"/>
-<text x="144.78" y="93.98" size="5.08" layer="94" font="vector" ratio="10">SCR Trigering</text>
-<text x="170.18" y="170.18" size="5.08" layer="94" font="vector" ratio="10">Zero Cross Detector</text>
+<text x="58.42" y="104.14" size="5.08" layer="94" font="vector" ratio="10">SCR Trigering</text>
+<text x="73.66" y="182.88" size="5.08" layer="94" font="vector" ratio="10">Zero Cross Detector</text>
 </plain>
 <instances>
-<instance part="OK1" gate="G$1" x="165.1" y="157.48" smashed="yes" rot="MR0">
-<attribute name="OC_FARNELL" x="165.1" y="157.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="165.1" y="157.48" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="172.103990625" y="163.210540625" size="1.78283125" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="172.094359375" y="147.3064" size="1.780390625" layer="96" rot="MR0"/>
+<instance part="OK1" gate="G$1" x="68.58" y="170.18" smashed="yes" rot="MR0">
+<attribute name="OC_FARNELL" x="68.58" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="68.58" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="75.583990625" y="175.910540625" size="1.78283125" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="75.574359375" y="160.0064" size="1.780390625" layer="96" rot="MR0"/>
 </instance>
-<instance part="OK3" gate="G$1" x="172.72" y="121.92" smashed="yes">
-<attribute name="OC_FARNELL" x="172.72" y="121.92" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="172.72" y="121.92" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="172.72" y="121.92" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="165.7096" y="127.6096" size="1.778" layer="95"/>
-<attribute name="VALUE" x="165.7096" y="114.3762" size="1.778" layer="96"/>
+<instance part="OK3" gate="G$1" x="91.44" y="86.36" smashed="yes">
+<attribute name="OC_FARNELL" x="91.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="91.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="91.44" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="84.4296" y="92.0496" size="1.778" layer="95"/>
+<attribute name="VALUE" x="84.4296" y="78.8162" size="1.778" layer="96"/>
 </instance>
-<instance part="TR1" gate="G$1" x="208.28" y="119.38" smashed="yes">
-<attribute name="OC_FARNELL" x="208.28" y="119.38" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="208.28" y="119.38" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="208.28" y="119.38" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="212.09" y="121.92" size="1.778" layer="95"/>
-<attribute name="VALUE" x="209.55" y="114.3" size="1.778" layer="96"/>
+<instance part="TR1" gate="G$1" x="127" y="83.82" smashed="yes">
+<attribute name="OC_FARNELL" x="127" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="127" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="127" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="130.81" y="86.36" size="1.778" layer="95"/>
+<attribute name="VALUE" x="128.27" y="78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="187.96" y="124.46" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" x="187.96" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="187.96" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="187.96" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="190.5" y="122.428" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="190.5" y="127.635" size="1.27" layer="96" font="vector" rot="R180"/>
+<instance part="R6" gate="G$1" x="106.68" y="88.9" smashed="yes" rot="R180">
+<attribute name="OC_FARNELL" x="106.68" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="109.22" y="86.868" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="109.22" y="92.075" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="R7" gate="G$1" x="200.66" y="124.46" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="200.66" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="203.2" y="122.428" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="203.2" y="127.635" size="1.27" layer="96" font="vector" rot="R180"/>
+<instance part="R7" gate="G$1" x="119.38" y="88.9" smashed="yes" rot="R180">
+<attribute name="OC_FARNELL" x="119.38" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="119.38" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="119.38" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="121.92" y="86.868" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="121.92" y="92.075" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="GND17" gate="1" x="157.48" y="114.3" smashed="yes">
-<attribute name="VALUE" x="157.48" y="114.046" size="1.778" layer="96" align="top-center"/>
+<instance part="GND17" gate="1" x="76.2" y="78.74" smashed="yes">
+<attribute name="VALUE" x="76.2" y="78.486" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R8" gate="G$1" x="157.48" y="124.46" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" x="157.48" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="157.48" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="157.48" y="124.46" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="160.02" y="122.428" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="160.02" y="127.635" size="1.27" layer="96" font="vector" rot="R180"/>
+<instance part="R8" gate="G$1" x="76.2" y="88.9" smashed="yes" rot="R180">
+<attribute name="OC_FARNELL" x="76.2" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="76.2" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="76.2" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="78.74" y="86.868" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="78.74" y="92.075" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="R9" gate="G$1" x="256.54" y="162.56" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" x="256.54" y="162.56" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="256.54" y="162.56" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="256.54" y="162.56" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="259.08" y="160.528" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="259.08" y="165.735" size="1.27" layer="96" font="vector" rot="R180"/>
+<instance part="R9" gate="G$1" x="160.02" y="175.26" smashed="yes" rot="R180">
+<attribute name="OC_FARNELL" x="160.02" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="160.02" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="160.02" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="162.56" y="173.228" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="162.56" y="178.435" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="R10" gate="G$1" x="256.54" y="152.4" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" x="256.54" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="256.54" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="256.54" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="259.08" y="150.368" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="259.08" y="155.575" size="1.27" layer="96" font="vector" rot="R180"/>
+<instance part="R10" gate="G$1" x="160.02" y="165.1" smashed="yes" rot="R180">
+<attribute name="OC_FARNELL" x="160.02" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="160.02" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="160.02" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="162.56" y="163.068" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="162.56" y="168.275" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="R11" gate="G$1" x="185.42" y="160.02" smashed="yes" rot="R180">
-<attribute name="OC_FARNELL" x="185.42" y="160.02" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="185.42" y="160.02" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="185.42" y="160.02" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="187.96" y="157.988" size="1.27" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="187.96" y="163.195" size="1.27" layer="96" font="vector" rot="R180"/>
+<instance part="R11" gate="G$1" x="88.9" y="172.72" smashed="yes" rot="R180">
+<attribute name="OC_FARNELL" x="88.9" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="88.9" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="88.9" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="91.44" y="170.688" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="91.44" y="175.895" size="1.27" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="R12" gate="G$1" x="203.2" y="152.4" smashed="yes" rot="R270">
-<attribute name="OC_FARNELL" x="203.2" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="203.2" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="203.2" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="205.232" y="154.94" size="1.27" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="200.025" y="154.94" size="1.27" layer="96" font="vector" rot="R270"/>
+<instance part="R12" gate="G$1" x="106.68" y="165.1" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="106.68" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="108.712" y="167.64" size="1.27" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="103.505" y="167.64" size="1.27" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="Q1" gate="G$1" x="187.96" y="152.4" smashed="yes" rot="R90">
-<attribute name="OC_FARNELL" x="187.96" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="187.96" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="187.96" y="152.4" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="187.325" y="153.67" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="189.23" y="153.67" size="1.27" layer="96" rot="R90"/>
+<instance part="Q1" gate="G$1" x="91.44" y="165.1" smashed="yes" rot="R90">
+<attribute name="OC_FARNELL" x="91.44" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="91.44" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="91.44" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="90.805" y="166.37" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="92.71" y="166.37" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="D1" gate="G$1" x="193.04" y="147.32" smashed="yes" rot="R270">
-<attribute name="OC_FARNELL" x="193.04" y="147.32" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="193.04" y="147.32" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="193.04" y="147.32" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="195.58" y="149.86" size="1.27" layer="95" rot="R270"/>
-<attribute name="VALUE" x="189.23" y="149.86" size="1.27" layer="96" rot="R270"/>
+<instance part="D1" gate="G$1" x="96.52" y="160.02" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="96.52" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="96.52" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="96.52" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="99.06" y="162.56" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="92.71" y="162.56" size="1.27" layer="96" rot="R270"/>
 </instance>
-<instance part="GND18" gate="1" x="157.48" y="147.32" smashed="yes">
-<attribute name="VALUE" x="157.48" y="147.066" size="1.778" layer="96" align="top-center"/>
+<instance part="GND18" gate="1" x="60.96" y="160.02" smashed="yes">
+<attribute name="VALUE" x="60.96" y="159.766" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R13" gate="G$1" x="154.94" y="165.1" smashed="yes" rot="R90">
-<attribute name="OC_FARNELL" x="154.94" y="165.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="154.94" y="165.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="154.94" y="165.1" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="152.908" y="162.56" size="1.27" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="158.115" y="162.56" size="1.27" layer="96" font="vector" rot="R90"/>
+<instance part="R13" gate="G$1" x="58.42" y="177.8" smashed="yes" rot="R90">
+<attribute name="OC_FARNELL" x="58.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="58.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="58.42" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="56.388" y="175.26" size="1.27" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="61.595" y="175.26" size="1.27" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="V10" gate="G$1" x="154.94" y="172.72" smashed="yes">
-<attribute name="VALUE" x="152.4" y="170.18" size="1.778" layer="96" rot="R90"/>
+<instance part="V10" gate="G$1" x="58.42" y="185.42" smashed="yes">
+<attribute name="VALUE" x="55.88" y="182.88" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U3" gate="A" x="228.6" y="162.56" smashed="yes" rot="MR0">
-<attribute name="OC_FARNELL" x="228.6" y="162.56" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="228.6" y="162.56" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="233.482509375" y="167.11193125" size="2.085240625" layer="95" ratio="10" rot="SMR0"/>
-<attribute name="VALUE" x="234.9628" y="149.4271" size="2.087" layer="96" ratio="10" rot="SMR0"/>
+<instance part="U3" gate="A" x="132.08" y="175.26" smashed="yes" rot="MR0">
+<attribute name="OC_FARNELL" x="132.08" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="132.08" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="136.962509375" y="179.81193125" size="2.085240625" layer="95" ratio="10" rot="SMR0"/>
+<attribute name="VALUE" x="138.4428" y="162.1271" size="2.087" layer="96" ratio="10" rot="SMR0"/>
 </instance>
-<instance part="C7" gate="G$1" x="248.92" y="154.94" smashed="yes">
-<attribute name="OC_FARNELL" x="248.92" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="248.92" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="248.92" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="251.46" y="157.48" size="1.27" layer="95" font="vector"/>
-<attribute name="VALUE" x="251.46" y="154.94" size="1.27" layer="96" font="vector"/>
+<instance part="C7" gate="G$1" x="152.4" y="167.64" smashed="yes">
+<attribute name="OC_FARNELL" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="152.4" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="154.94" y="170.18" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="154.94" y="167.64" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="C8" gate="G$1" x="198.12" y="154.94" smashed="yes">
-<attribute name="OC_FARNELL" x="198.12" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="198.12" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="198.12" y="154.94" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="200.66" y="157.48" size="1.27" layer="95" font="vector"/>
-<attribute name="VALUE" x="200.66" y="154.94" size="1.27" layer="96" font="vector"/>
+<instance part="C8" gate="G$1" x="101.6" y="167.64" smashed="yes">
+<attribute name="OC_FARNELL" x="101.6" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="101.6" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="101.6" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="104.14" y="170.18" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="104.14" y="167.64" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="J1" gate="G$1" x="104.14" y="149.86" smashed="yes" rot="R180">
-<attribute name="VALUE" x="109.22" y="157.226" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="109.22" y="141.732" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J1" gate="G$1" x="248.92" y="60.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="254" y="68.326" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="254" y="52.832" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="V1" gate="G$1" x="91.44" y="160.02" smashed="yes">
-<attribute name="VALUE" x="88.9" y="157.48" size="1.778" layer="96" rot="R90"/>
+<instance part="V1" gate="G$1" x="236.22" y="71.12" smashed="yes">
+<attribute name="VALUE" x="233.68" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="AC_IN" gate="G$1" x="228.6" y="124.46" smashed="yes" rot="R180">
-<attribute name="VALUE" x="231.14" y="129.286" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="231.14" y="118.872" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="AC_IN" gate="G$1" x="147.32" y="88.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="149.86" y="93.726" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="149.86" y="83.312" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="AC_OUT" gate="G$1" x="228.6" y="109.22" smashed="yes" rot="R180">
-<attribute name="VALUE" x="231.14" y="114.046" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="231.14" y="103.632" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="AC_OUT" gate="G$1" x="147.32" y="73.66" smashed="yes" rot="R180">
+<attribute name="VALUE" x="149.86" y="78.486" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="149.86" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
+<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -3605,19 +3740,19 @@ part number 2062-2P from STA</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="157.48" y1="116.84" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="81.28" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="OK3" gate="G$1" pin="C"/>
-<wire x1="157.48" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="G$1" pin="EMI"/>
-<wire x1="157.48" y1="152.4" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="165.1" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
-<label x="91.44" y="149.86" size="1.778" layer="95"/>
+<wire x1="243.84" y1="60.96" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
+<label x="236.22" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -3627,8 +3762,8 @@ part number 2062-2P from STA</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="152.4" x2="91.44" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="152.4" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="63.5" x2="236.22" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="63.5" x2="236.22" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="V1" gate="G$1" pin="+5V"/>
 </segment>
 </net>
@@ -3642,55 +3777,55 @@ part number 2062-2P from STA</description>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="OK3" gate="G$1" pin="A1"/>
 <pinref part="TR1" gate="G$1" pin="G"/>
-<wire x1="182.88" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="TR1" gate="G$1" pin="A2"/>
-<wire x1="205.74" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
-<junction x="208.28" y="124.46"/>
-<wire x1="220.98" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
-<label x="218.44" y="124.46" size="1.778" layer="95"/>
+<wire x1="124.46" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
+<junction x="127" y="88.9"/>
+<wire x1="139.7" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
+<label x="137.16" y="88.9" size="1.778" layer="95"/>
 <pinref part="AC_IN" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="162.56" x2="264.16" y2="162.56" width="0.1524" layer="91"/>
-<label x="261.62" y="162.56" size="1.778" layer="95"/>
+<wire x1="165.1" y1="175.26" x2="167.64" y2="175.26" width="0.1524" layer="91"/>
+<label x="165.1" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="TR1" gate="G$1" pin="A1"/>
-<wire x1="208.28" y1="116.84" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="127" y1="81.28" x2="127" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="127" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="AC_OUT" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N" class="0">
 <segment>
-<label x="218.44" y="121.92" size="1.778" layer="95"/>
+<label x="137.16" y="86.36" size="1.778" layer="95"/>
 <pinref part="AC_IN" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="218.44" y="106.68" size="1.778" layer="95"/>
+<label x="137.16" y="71.12" size="1.778" layer="95"/>
 <pinref part="AC_OUT" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="106.68" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="152.4" x2="264.16" y2="152.4" width="0.1524" layer="91"/>
-<label x="261.62" y="152.4" size="1.778" layer="95"/>
+<wire x1="165.1" y1="165.1" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
+<label x="165.1" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -3702,108 +3837,108 @@ part number 2062-2P from STA</description>
 <net name="N$17" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="160.02" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="172.72" x2="101.6" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="157.48" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="172.72" x2="93.98" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="170.18" x2="106.68" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="OUT+"/>
-<wire x1="210.82" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
-<junction x="203.2" y="160.02"/>
+<wire x1="114.3" y1="172.72" x2="106.68" y2="172.72" width="0.1524" layer="91"/>
+<junction x="106.68" y="172.72"/>
 <pinref part="C8" gate="G$1" pin="P$1"/>
-<junction x="198.12" y="160.02"/>
+<junction x="101.6" y="172.72"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="OK1" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="172.72" x2="78.74" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="OK1" gate="G$1" pin="C"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
-<wire x1="175.26" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="193.04" y1="149.86" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
-<junction x="193.04" y="152.4"/>
+<wire x1="96.52" y1="162.56" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
+<junction x="96.52" y="165.1"/>
 <pinref part="C8" gate="G$1" pin="P$2"/>
-<wire x1="198.12" y1="152.4" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="165.1" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="B"/>
-<wire x1="187.96" y1="147.32" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="160.02" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="154.94" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="154.94" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="193.04" y1="144.78" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
-<junction x="193.04" y="142.24"/>
+<wire x1="96.52" y1="157.48" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
+<junction x="96.52" y="154.94"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="147.32" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
-<junction x="203.2" y="142.24"/>
+<wire x1="106.68" y1="160.02" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
+<junction x="106.68" y="154.94"/>
 <pinref part="U3" gate="A" pin="OUT-"/>
-<wire x1="210.82" y1="157.48" x2="208.28" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="157.48" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="170.18" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ZERO_CROSS" class="0">
 <segment>
 <pinref part="OK1" gate="G$1" pin="COL"/>
-<wire x1="157.48" y1="157.48" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="160.02" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
-<junction x="154.94" y="157.48"/>
-<wire x1="154.94" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
-<label x="137.16" y="157.48" size="1.778" layer="95"/>
+<wire x1="58.42" y1="172.72" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
+<junction x="58.42" y="170.18"/>
+<wire x1="58.42" y1="170.18" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
+<label x="40.64" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="99.06" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
-<label x="81.28" y="144.78" size="1.778" layer="95"/>
+<wire x1="243.84" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
+<label x="226.06" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="162.56" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="175.26" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="AC_2"/>
-<wire x1="248.92" y1="162.56" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="162.56" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="175.26" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="175.26" x2="149.86" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="P$1"/>
-<wire x1="248.92" y1="160.02" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
-<junction x="248.92" y="162.56"/>
+<wire x1="152.4" y1="172.72" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
+<junction x="152.4" y="175.26"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="U3" gate="A" pin="AC"/>
-<wire x1="251.46" y1="152.4" x2="248.92" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="152.4" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="165.1" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="165.1" x2="149.86" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="P$2"/>
-<junction x="248.92" y="152.4"/>
+<junction x="152.4" y="165.1"/>
 </segment>
 </net>
 <net name="GATEPULSE" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
-<label x="137.16" y="124.46" size="1.778" layer="95"/>
+<wire x1="71.12" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
+<label x="55.88" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="99.06" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
-<label x="81.28" y="147.32" size="1.778" layer="95"/>
+<wire x1="243.84" y1="58.42" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
+<label x="226.06" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
