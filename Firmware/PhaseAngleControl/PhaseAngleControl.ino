@@ -2,7 +2,7 @@
 #define triacPin 3
 int ledPin=13;
 int buzzPin=5;
-int trigerTime = 300;
+int trigerTime = 9000;
 int pulseDelay;
 
 void setup(){
@@ -39,25 +39,24 @@ void setup(){
 
 void loop(){
   
-  for (int i=5; i <= 128; i++)
+  for (int i=12; i <= 120; i++)
   {
   pulseDelay = i;
   delay(10);
   }
 
-  for (int j=128; j >= 5; j--)
+  for (int i=120; i >= 12; i--)
   {
-  pulseDelay = j;
+  pulseDelay = i;
   delay(10);
   }
-  
+  delay(2000);
 }
 
 
 void angle()
 {
   trigerTime = (pulseDelay*75);
-  
   delayMicroseconds(trigerTime);
   digitalWrite(triacPin, HIGH);
   delayMicroseconds(100);
