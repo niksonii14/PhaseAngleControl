@@ -1,15 +1,22 @@
-int triacPin = 3;
-long trigerTimeValue;
+int triacPin = 21;
 long trigerTime;
-
 int incomingByte = 0;
+
+void IRAM_ATTR angle()
+{
+  delayMicroseconds(trigerTime);
+  digitalWrite(triacPin, HIGH);
+  delayMicroseconds(100);
+  digitalWrite(triacPin, LOW);
+}
 
 
 void setup() {
   pinMode(triacPin, OUTPUT);
+  pinMode(22, INPUT_PULLUP);
   digitalWrite(triacPin, LOW);
   Serial.begin(9600);
-  attachInterrupt(digitalPinToInterrupt(2), angle, RISING);
+  attachInterrupt(digitalPinToInterrupt(22), angle, FALLING);
 }
 
 void loop() {
@@ -26,63 +33,52 @@ void loop() {
   for (int i = 49; i < 57; i++)
   {
     incomingByte = i;
-    delay(1000);
+    delay(5000);
     switch (incomingByte) {
       case 49:
-        trigerTimeValue = 1000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 1000;
+        Serial.println(trigerTime);
         break;
       case 50:
-        trigerTimeValue = 2000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 2000;
+        Serial.println(trigerTime);
         break;
       case 51:
-        trigerTimeValue = 3000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 3000;
+        Serial.println(trigerTime);
         break;
       case 52:
-        trigerTimeValue = 4000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 4000;
+        Serial.println(trigerTime);
         break;
       case 53:
-        trigerTimeValue = 5000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 5000;
+        Serial.println(trigerTime);
         break;
       case 54:
-        trigerTimeValue = 6000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 6000;
+        Serial.println(trigerTime);
         break;
       case 55:
-        trigerTimeValue = 7000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 7000;
+        Serial.println(trigerTime);
         break;
       case 56:
-        trigerTimeValue = 8000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 8000;
+        Serial.println(trigerTime);
         break;
       case 57:
-        trigerTimeValue = 9000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 9000;
+        Serial.println(trigerTime);
         break;
       case 58:
-        trigerTimeValue = 10000;
-        Serial.println(trigerTimeValue);
+        trigerTime = 10000;
+        Serial.println(trigerTime);
         break;
       default:
-        trigerTimeValue = 9000;
+        trigerTime = 9000;
         break;
     }
   }
 
-}
-
-
-
-void angle()
-{
-  trigerTime = trigerTimeValue;
-  delayMicroseconds(trigerTime);
-  digitalWrite(triacPin, HIGH);
-  delayMicroseconds(100);
-  digitalWrite(triacPin, LOW);
 }
